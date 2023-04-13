@@ -26,6 +26,9 @@ Main updates:
 Will be uploaded tomorrow after the training is over.
 
 
+Thank you.
+
+
 # TODO
 How to Drop Weights with knowledge?  
  : By saving the masks of Dropout  
@@ -37,4 +40,4 @@ Effective also in Attention Machanism?
  : After showing the effectiveness  
      
        
-Thank you.
+
