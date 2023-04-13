@@ -1,3 +1,4 @@
+2023/04/10
 Currently only Weight Dropout is available.  
 With this code, we can easily drop a layer's weights.  
 You can run simple implementation code here.  
