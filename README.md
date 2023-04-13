@@ -12,7 +12,7 @@ Result: No Drop had highest accuracies for both datasets.
    For CIFAR-10, Normal Dropout(Node drop) had serious problem with training.  
    And Weight Dropout had more unstable convergence compared to No Dropout.
    
-2023/04/13
+2023/04/13  
 Main updates:   
 1) Changed architecture to VGG-like architectures. (conv-conv-pool) - (conv-conv-pool) - (flatten-fc-fc-fc) - out  
 2) Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)
