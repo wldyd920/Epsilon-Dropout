@@ -1,3 +1,4 @@
+# Update Note
 2023/04/10  
 Weight_Dropout.ipynb  
 Currently only Weight Dropout is available.  
