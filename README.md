@@ -18,6 +18,7 @@ Main updates:
 2) Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)
 3) Nomalization for dataset before train: 0.5 > reasonable values
 4) Record not only plots but also loss and accuracies.  
+
 Will be uploaded tomorrow after the training is done.
    
 Thank you.
