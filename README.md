@@ -23,5 +23,16 @@ Main updates:
 - Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
 
 Will be uploaded tomorrow after the training is over.
+
+
+# TODO
+How to Drop Weights with knowledge? 
+ : By saving the masks of Dropout
+More Datasets?
+ : Fasion-MNIST, CIFAR-100, ImageNET(ILSVRC2012 task 1&2)
+Adaptable to other architectures?
+ : Try other famous architectures
+Effective also in Attention Machanism?
+ : After showing the effectiveness
    
 Thank you.
