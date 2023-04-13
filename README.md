@@ -30,13 +30,13 @@ Thank you.
 
 
 # TODO
-How to Drop Weights with knowledge?  
+ - How to Drop Weights with knowledge?  
  : By saving the masks of Dropout  
-More Datasets?  
+ - More Datasets?  
  : Fasion-MNIST, CIFAR-100, ImageNET(ILSVRC2012 task 1&2)  
-Adaptable to other architectures?  
+ - Adaptable to other architectures?  
  : Try other famous architectures  
-Effective also in Attention Machanism?  
+ - Effective also in Attention Machanism?  
  : After showing the effectiveness  
      
        
