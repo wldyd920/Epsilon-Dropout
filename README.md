@@ -35,7 +35,7 @@ Thank you.
 2. More Datasets?  
  : Fasion-MNIST, CIFAR-100, ImageNET(ILSVRC2012 task 1&2)  
 3. Adaptable to other architectures?  
- : Try other famous architectures  
+ : Try other famous architectures (VGG, GoogleNet, etc.)   
 4. Effective also in Attention Machanism?  
  : After showing the effectiveness  
      
