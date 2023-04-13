@@ -13,11 +13,11 @@ Result: No Drop had highest accuracies for both datasets.
    And Weight Dropout had more unstable convergence compared to No Dropout.
    
 2023/04/13  
->Main updates:   
-> - Changed architecture to VGG-like architectures. (conv-conv-pool) - (conv-conv-pool) - (flatten-fc-fc-fc) - out  
-> - Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)  
-> - Nomalization for dataset before train: 0.5 > reasonable values  
-> - Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
+Main updates:   
+- Changed architecture to VGG-like architectures. (conv-conv-pool) - (conv-conv-pool) - (flatten-fc-fc-fc) - out  
+- Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)  
+- Nomalization for dataset before train: 0.5 > reasonable values  
+- Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
 
 Will be uploaded tomorrow after the training is over.
    
