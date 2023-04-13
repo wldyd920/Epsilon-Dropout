@@ -19,6 +19,6 @@ Main updates:
 3) Nomalization for dataset before train: 0.5 > reasonable values
 4) Record not only plots but also loss and accuracies.  
 
-Will be uploaded tomorrow after the training is done.
+Will be uploaded tomorrow after the training is over.
    
 Thank you.
