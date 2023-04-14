@@ -1,6 +1,6 @@
 # Update Note
 2023/04/10  
-Weight_Dropout 1.ipynb  
+1_Weight_Dropout.ipynb  
 Currently only Weight Dropout is available.  
 With this code, we can easily drop a layer's weights.  
 You can run simple implementation code here.  
@@ -8,7 +8,7 @@ You can run simple implementation code here.
 https://colab.research.google.com/drive/1o739LKrmxg5pLC4kiXBKoQZQJF5eEHqw?usp=sharing  
   
 2023/04/12  
-Weight_Dropout 2.ipynb  
+2_Weight_Dropout.ipynb  
 Main update: Run function and Plot function.  
 Experiments: Runed 1000 epochs for {(MNIST, CIFAR-10) X (NoDrop, Drop, WeightDrop)}   
 Result: No Drop had highest accuracies for both datasets.  
@@ -16,7 +16,7 @@ Result: No Drop had highest accuracies for both datasets.
    And Weight Dropout had more unstable convergence compared to No Dropout.
    
 2023/04/13  
-Weight_Dropout 3 (VGG-like).ipynb  
+3_Weight_Dropout(VGG-like).ipynb  
 Main updates:   
 - Changed architecture to VGG-like architectures. (conv-conv-pool) - (conv-conv-pool) - (flatten-fc-fc-fc) - out  
 - Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)  
@@ -24,6 +24,12 @@ Main updates:
 - Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
 
 Will be uploaded tomorrow after the training is over.
+
+
+2023/04/14  
+4_Weight_Dropout(more dataset).ipynb  
+Main updates:  
+- Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
 
 
 Thank you.
