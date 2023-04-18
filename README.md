@@ -42,10 +42,11 @@ SMD2.ipynb
 Change of which accuracy to save, where to use.  
 save: (mask during training, loss when test)  
 use : top_k mask (k=10), Use the saved masks based on the test accs.  
+Result: Fashion_MNIST: 90.69%  
   
-
-
-
+  
+  
+  
 Thank you.  
 
 
