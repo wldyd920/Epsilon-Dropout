@@ -31,6 +31,12 @@ Weight_Dropout(more dataset) 4.ipynb
 Main updates:  
 - Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
 
+2023/04/18
+SMD1.ipynb
+Implementation of Shape-Memory Dropout
+experiment has been done on FMNIST
+
+
 
 Thank you.
 
