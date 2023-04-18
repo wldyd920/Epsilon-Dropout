@@ -60,7 +60,7 @@ Secondly, there can be two different ways of use the saved masks:
   
 For Last, there can be two different ways of choose masks when test:  
 1) Open all the nodes : This is the same as original Dropout. (It makes possible to be adapted as Dropout)  
-2) Random choose : This is similar to Evolutionary approach. (Point of view of search)  
+2) Random choose : This is similar to Evolutionary approach. (Perspective of search)  
   
 Thank you.  
 
