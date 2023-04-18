@@ -51,7 +51,7 @@ Result: Fashion_MNIST: 90.69%
    
 2023/04/18  
 Problem: OOM(cannot save all the masks) on larger network.  
-(Solved: SMD4(solve OOM).ipynb)
+(Solved: SMD4(solve OOM).ipynb)  
    
    
 2023/04/18   
