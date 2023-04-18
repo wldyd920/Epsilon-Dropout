@@ -16,6 +16,7 @@ Result: No Drop had highest accuracies for both datasets.
    And Weight Dropout had more unstable convergence compared to No Dropout.  
    
    
+  
 2023/04/13  
 Weight_Dropout(VGG-like) 3.ipynb  
 Main updates:   
