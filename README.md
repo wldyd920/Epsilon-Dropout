@@ -49,6 +49,7 @@ Ideas
 There can be two different ways of evaluate the masks:  
 1) Train accuracy: Evaluate with pure training performance.  
 2) Test accuracy : Unlearned objective evaluation.  
+  
 And there can be two different ways of use the saved masks:  
 1) Epoch      : Possible to update continuously with Epsilon.  
 2) Validation : Masks can be used purely for train purposes. (Possible to open all the nodes when test)  
