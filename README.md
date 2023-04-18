@@ -54,9 +54,9 @@ Secondly, there can be two different ways of use the saved masks:
 1) Epoch      : Possible to update continuously with Epsilon.  
 2) Validation : Masks can be used purely for train purposes. (Possible to open all the nodes when test)  
   
-For Last, there can be two different ways of choose masks when test:
-1) Open every nodes : This is the same as original dropout. (It makes possible to be adapted as Dropout)
-2) Random choose : This is similar to Evolutionary approach. (Point of view of search)
+For Last, there can be two different ways of choose masks when test:  
+1) Open every nodes : This is the same as original Dropout. (It makes possible to be adapted as Dropout)  
+2) Random choose : This is similar to Evolutionary approach. (Point of view of search)  
   
 Thank you.  
 
