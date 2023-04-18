@@ -44,8 +44,8 @@ save: (mask during training, loss when test)
 use : top_k mask (k=10), Use the saved masks based on the test accs.  
 Result: Fashion_MNIST: 90.69%  
   
-2023/04/18
-Problem: memory
+2023/04/18  
+Problem: memory  
 
   
 2023/04/18  
