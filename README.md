@@ -65,7 +65,12 @@ For Last, there can be two different ways to choose masks when test:
 1) Open all the nodes : This is the same as original Dropout. (Regularization)  
 2) Random choose : This is similar to Evolutionary approach. (Search)  
 
-
+2023/04/18
+Implementation has been done with train accuracy.
+Result: Fashion_MNIST: achieved highest accuracy within much less epoch.
+  
+  
+  
   
 Thank you.  
 
