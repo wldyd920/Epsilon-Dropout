@@ -23,25 +23,22 @@ Main updates:
 - Nomalization for dataset before train: 0.5 > reasonable values  
 - Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
 
-Will be uploaded tomorrow after the training is over.
-
-
 2023/04/14  
 Weight_Dropout(more dataset) 4.ipynb  
 Main updates:  
 - Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
 
-2023/04/18
-SMD1.ipynb
-Implementation of Shape-Memory Dropout
-experiment has been done on FMNIST
+2023/04/18  
+SMD1.ipynb  
+Implementation of Shape-Memory Dropout  
+experiment has been done on FMNIST  
 
 
 
-Thank you.
+Thank you.  
 
 
-# TODO
+# TODO  
 1. How to Drop Weights with knowledge?  
  : By saving the masks of Dropout  
 2. More Datasets?  
