@@ -6,7 +6,8 @@ With this code, we can easily drop a layer's weights.
 You can run simple implementation code here.  
   
 https://colab.research.google.com/drive/1o739LKrmxg5pLC4kiXBKoQZQJF5eEHqw?usp=sharing  
-  
+   
+   
 2023/04/12  
 Weight_Dropout 2.ipynb  
 Main update: Run function and Plot function.  
@@ -14,6 +15,7 @@ Experiments: Runed 1000 epochs for {(MNIST, CIFAR-10) X (NoDrop, Drop, WeightDro
 Result: No Drop had highest accuracies for both datasets.  
    For CIFAR-10, Normal Dropout(Node drop) had serious problem with training.  
    And Weight Dropout had more unstable convergence compared to No Dropout.
+   
    
 2023/04/13  
 Weight_Dropout(VGG-like) 3.ipynb  
@@ -29,7 +31,8 @@ Weight_Dropout(more dataset) 4.ipynb
 Main updates:  
    Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
    Results of the experiments are in Result4 folder
-  
+   
+   
 2023/04/18  
 SMD1.ipynb  
 Implementation of Shape-Memory Dropout. (Drops node)  
@@ -37,46 +40,58 @@ experiment has been done on FMNIST.
 save: (mask during training, accuracy of training batch)  
 use : top_k mask (k=1) after half of the total_epoch  
 Result: Fashion_MNIST: 92.01%  
-  
+   
+   
 2023/04/18  
 SMD2.ipynb  
 Changed which accuracy to save, where to use.  
 save: (mask during training, loss when test)  
 use : top_k mask (k=10), Use the saved masks based on the test accs.  
 Result: Fashion_MNIST: 90.69%  
-  
+   
+   
 2023/04/18  
 Problem: OOM(cannot save all the masks) on larger network.  
 (Solved: SMD4(solve OOM).ipynb)
-
+   
+   
 2023/04/18   
 Totally new idea : Control regularization by adjust the dropout ratio with momentum. (Later)  
-  
+   
+   
 2023/04/18  
 Debatable ideas  
 Firstly, there can be two different ways to evaluate the masks:  
 1) Train accuracy: Evaluate with pure training performance.  
 2) Test accuracy : Unlearned objective evaluation.  
-  
+   
+   
 Secondly, there can be two different ways to use the saved masks:  
 1) Epoch      : Possible to update continuously with Epsilon.  
 2) Validation : Masks can be used purely for train purposes. (Possible to open all the nodes when test)  
-  
+   
+   
 For Last, there can be two different ways to choose masks when test:  
 1) Open all the nodes : This is the same as original Dropout. (Regularization)  
 2) Random choose : This is similar to Evolutionary approach. (Search)  
-  
+   
+   
 2023/04/18  
 SMD5(train acc).py  
 Implementation has been done with train accuracy.  
 Result: Fashion_MNIST: achieved highest accuracy(92.10%) within much less epoch.  
 Rest of the results will be uploaded once all the training is done.  
-  
+   
+   
+   
+   
+   
   
   
   
 Thank you.  
-
+   
+   
 
 # TODO  
 1. How to Drop Weights with knowledge?  
