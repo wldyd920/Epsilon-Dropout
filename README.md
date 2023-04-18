@@ -31,7 +31,7 @@ Main updates:
   
 2023/04/18  
 SMD1.ipynb  
-Implementation of Shape-Memory Dropout.  
+Implementation of Shape-Memory Dropout. (Drops node)  
 experiment has been done on FMNIST.  
 save: (mask during training, accuracy of training batch)  
 use : top_k mask (k=1) after half of the total_epoch  
