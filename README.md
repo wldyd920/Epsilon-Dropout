@@ -48,7 +48,7 @@ Result: Fashion_MNIST: 90.69%
 Problem: OOM(cannot save all the masks)  
 
 2023/04/18   
-Totally new idea : Control regularization by adjust the dropout ratio with momentum.
+Totally new idea : Control regularization by adjust the dropout ratio with momentum. (Later)  
   
 2023/04/18  
 Debatable ideas  
