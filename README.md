@@ -47,6 +47,8 @@ Result: Fashion_MNIST: 90.69%
 2023/04/18  
 Problem: OOM(cannot save all the masks)  
 
+2023/04/18
+Totally new idea : Control regularization by adjust the dropout ratio with momentum.
   
 2023/04/18  
 Debatable ideas  
@@ -59,8 +61,10 @@ Secondly, there can be two different ways of use the saved masks:
 2) Validation : Masks can be used purely for train purposes. (Possible to open all the nodes when test)  
   
 For Last, there can be two different ways of choose masks when test:  
-1) Open all the nodes : This is the same as original Dropout. (It makes possible to be adapted as Dropout)  
-2) Random choose : This is similar to Evolutionary approach. (Perspective of search)  
+1) Open all the nodes : This is the same as original Dropout. (Regularization)  
+2) Random choose : This is similar to Evolutionary approach. (Search)  
+
+
   
 Thank you.  
 
