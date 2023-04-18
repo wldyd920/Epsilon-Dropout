@@ -45,7 +45,7 @@ use : top_k mask (k=10), Use the saved masks based on the test accs.
 Result: Fashion_MNIST: 90.69%  
   
 2023/04/18  
-Problem: memory  
+Problem: OOM(cannot save all the masks)  
 
   
 2023/04/18  
