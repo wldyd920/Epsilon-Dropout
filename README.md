@@ -27,11 +27,21 @@ Main updates:
 Weight_Dropout(more dataset) 4.ipynb  
 Main updates:  
    Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
-
+  
 2023/04/18  
 SMD1.ipynb  
-Implementation of Shape-Memory Dropout  
-experiment has been done on FMNIST  
+Implementation of Shape-Memory Dropout.  
+experiment has been done on FMNIST.  
+save: (mask during training, accuracy of training batch)  
+use : top_k mask (k=1) after half of the total_epoch  
+Result: Fashion_MNIST: 92.01%
+  
+2023/04/18
+SMD2.ipynb
+Change of which accuracy to save, where to use.
+save: (mask during training, training loss)
+use : top_k mask (k=10), 
+
 
 
 
