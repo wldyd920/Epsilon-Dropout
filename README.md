@@ -29,7 +29,7 @@ Main updates:
    Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
    Results of the experiments are in Result4 folder
   
-2023/04/17  
+2023/04/18  
 SMD1.ipynb  
 Implementation of Shape-Memory Dropout.  
 experiment has been done on FMNIST.  
@@ -44,6 +44,14 @@ save: (mask during training, loss when test)
 use : top_k mask (k=10), Use the saved masks based on the test accs.  
 Result: Fashion_MNIST: 90.69%  
   
+2023/04/18  
+Ideas  
+There can be two different ways of evaluate the masks:  
+1) Train accuracy: Evaluate with pure training performance.  
+2) Test accuracy : Unlearned objective evaluation.  
+And there can be two different ways of use the saved masks:  
+1) Epoch      : Possible to update continuously with Epsilon.  
+2) Validation : Masks can be used purely for train purposes. (Possible to open all the nodes when test)  
   
   
   
