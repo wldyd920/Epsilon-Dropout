@@ -29,7 +29,7 @@ Main updates:
 Weight_Dropout(more dataset) 4.ipynb  
 Main updates:  
    Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
-   Results of the experiments are in Result4 folder
+   Results of the experiments are in Result4 folder  
    
    
 2023/04/18  
