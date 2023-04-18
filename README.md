@@ -45,7 +45,7 @@ use : top_k mask (k=10), Use the saved masks based on the test accs.
 Result: Fashion_MNIST: 90.69%  
   
 2023/04/18  
-Problem: OOM(cannot save all the masks)  
+Problem: OOM(cannot save all the masks) on larger network.  
 
 2023/04/18   
 Totally new idea : Control regularization by adjust the dropout ratio with momentum. (Later)  
