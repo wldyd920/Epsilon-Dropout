@@ -18,15 +18,15 @@ Result: No Drop had highest accuracies for both datasets.
 2023/04/13  
 Weight_Dropout(VGG-like) 3.ipynb  
 Main updates:   
-- Changed architecture to VGG-like architectures. (conv-conv-pool) - (conv-conv-pool) - (flatten-fc-fc-fc) - out  
-- Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)  
-- Nomalization for dataset before train: 0.5 > reasonable values  
-- Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
+   Changed architecture to VGG-like architectures. (conv-conv-pool) - (conv-conv-pool) - (flatten-fc-fc-fc) - out  
+   Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)  
+   Nomalization for dataset before train: 0.5 > reasonable values  
+   Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
 
 2023/04/14  
 Weight_Dropout(more dataset) 4.ipynb  
 Main updates:  
-- Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
+   Added 2 more datasets to compare. (Fashion_MNIST, CIFAR-100)  
 
 2023/04/18  
 SMD1.ipynb  
