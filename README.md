@@ -14,8 +14,7 @@ Main update: Run function and Plot function.
 Experiments: Runed 1000 epochs for {(MNIST, CIFAR-10) X (NoDrop, Drop, WeightDrop)}   
 Result: No Drop had highest accuracies for both datasets.  
    For CIFAR-10, Normal Dropout(Node drop) had serious problem with training.  
-   And Weight Dropout had more unstable convergence compared to No Dropout.
-   
+   And Weight Dropout had more unstable convergence compared to No Dropout.  
    
    
 2023/04/13  
