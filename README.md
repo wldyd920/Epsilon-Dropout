@@ -22,7 +22,8 @@ Main updates:
    Learning rate: 0.1 > 0.01 (last experiment had issue for training Dropout architecture. Assuming the reason was gradient explode)  
    Nomalization for dataset before train: 0.5 > reasonable values  
    Record not only plots but also loss and accuracies. (exp_num = -1 to not record)  
-
+   
+   
 2023/04/14  
 Weight_Dropout(more dataset) 4.ipynb  
 Main updates:  
