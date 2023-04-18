@@ -64,10 +64,12 @@ Secondly, there can be two different ways to use the saved masks:
 For Last, there can be two different ways to choose masks when test:  
 1) Open all the nodes : This is the same as original Dropout. (Regularization)  
 2) Random choose : This is similar to Evolutionary approach. (Search)  
-
-2023/04/18
-Implementation has been done with train accuracy.
-Result: Fashion_MNIST: achieved highest accuracy within much less epoch.
+  
+2023/04/18  
+SMD5(train acc).py  
+Implementation has been done with train accuracy.  
+Result: Fashion_MNIST: achieved highest accuracy(92.10%) within much less epoch.  
+Rest of the results will be uploaded once all the training is done.  
   
   
   
