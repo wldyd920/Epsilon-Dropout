@@ -82,7 +82,7 @@ Rest of the results will be uploaded once all the training is done.
 2023/04/19  
 SMD6(test acc).py  
 Evaluate masks with test accuracy.  
-Result: about 2%p higher on CIFAR-10 dataset (77.82%) within only 100 epochs (previous was 1000epochs).
+Result: about 2%p higher on CIFAR-10 dataset (77.95%) within only 100 epochs (previous was 1000epochs).
    
    
    
