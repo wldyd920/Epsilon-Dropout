@@ -75,8 +75,12 @@ For Last, there can be two different ways to choose masks when test:
 2023/04/18  
 SMD5(train acc).py  
 Implementation has been done with train accuracy.  
-Result: Fashion_MNIST: achieved highest accuracy(92.10%) within much less epoch.  
-Rest of the results will be uploaded once all the training is done.  
+Results:   
+MNIST: 98.97%  
+Fashion_MNIST: achieved highest accuracy(92.10%) within much less epoch.  
+CIFAR-10: 74.96%  
+CIFAR-100: 38.20%  
+All the results are in Result5 folder.  
    
    
 2023/04/19  
