@@ -98,7 +98,7 @@ although it makes sense as well, since I didn't intended to do that, I will corr
    
    
 2023/04/20  
-SMD8(regularize).ipynb  
+SMD7(regularize).ipynb  
 Dividing training set into train and validation set restricts the number of data being trained.   
 Using mask on validation interrupts the regularization of Dropout.  
 Removed the error of saving redundant masks.  
@@ -108,10 +108,13 @@ Note: Higher accuracy might be because of reducing the number of the batch size 
    
    
 2023/04/20  
-SMD8.ipynb  
+SMD7(regularize).ipynb  
 Divided dataset into (train, validation, test) = (4 : 1 : 1)  
 Save trained mask > Save validation acc > test  
 CIFAR-10: 79.04%
+SMD7(drop).ipynb  
+Comparison with Dropout
+CIFAR-10: 75.75%
 
       
    
