@@ -87,7 +87,8 @@ All the results are in Result5 folder.
 SMD6(test acc).py  
 Evaluate masks with test accuracy.  
 Result:  
-CIFAR-10: about 3%p higher than using training accuracy on CIFAR-10 dataset (77.95%) within only 100 epochs.  
+CIFAR-10: 77.95%  
+test acc > train acc
    
    
 2023/04/20  
