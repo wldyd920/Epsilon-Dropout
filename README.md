@@ -98,7 +98,8 @@ although it makes sense as well, since I didn't intended to do that, I will corr
       
    
 2023/04/20  
-Dividing training set into train and validation set restricts the number of data being trained.
+Dividing training set into train and validation set restricts the number of data being trained.  
+Using mask on validation interrupts the regularization of Dropout.
       
    
 Thank you.  
