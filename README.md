@@ -98,8 +98,10 @@ although it makes sense as well, since I didn't intended to do that, I will corr
       
    
 2023/04/20  
+SMD8(regularize).ipynb
 Dividing training set into train and validation set restricts the number of data being trained.  
 Using mask on validation interrupts the regularization of Dropout.
+Removed the error of saving redundant masks
       
    
 Thank you.  
