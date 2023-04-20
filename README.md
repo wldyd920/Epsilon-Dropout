@@ -110,7 +110,7 @@ Note: Higher accuracy might be because of reducing the number of the batch size 
 2023/04/20  
 SMD7(regularize).ipynb  
 Divided dataset into (train, validation, test) = (4 : 1 : 1)  
-Save trained mask > Save validation acc > test  
+Procedure: Save trained mask > Save validation acc > test  
 CIFAR-10: 79.04%  
 SMD7(drop).ipynb  
 Comparison with Dropout  
