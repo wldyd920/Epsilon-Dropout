@@ -107,10 +107,10 @@ Note: Higher accuracy might be because of reducing the number of the batch size 
 (Found out that this testing is cheating)  
    
    
-2023/04/20
-SMD8.ipynb
-Divided dataset into (train, validation, test) = (4 : 1 : 1)
-Save trained mask > Save validation acc > test
+2023/04/20  
+SMD8.ipynb  
+Divided dataset into (train, validation, test) = (4 : 1 : 1)  
+Save trained mask > Save validation acc > test  
 
       
    
