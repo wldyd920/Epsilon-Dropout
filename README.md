@@ -90,6 +90,11 @@ Result:
 CIFAR-10: about 3%p higher on CIFAR-10 dataset (77.95%) within only 100 epochs.  
    
       
+2023/04/20
+Mistake found.
+It was using test acc but didn't used mask on test.
+So it was like: train(with mask1) - test(without mask) - save both
+although it makes sense as well, since I didn't intended to do that, I will correct it.
       
    
 Thank you.  
