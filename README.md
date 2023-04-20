@@ -104,6 +104,14 @@ Using mask on validation interrupts the regularization of Dropout.
 Removed the error of saving redundant masks.
 CIFAR-10 : 78.44%
 Note: Higher accuracy might be because of reducing the number of the batch size on testing.
+(Found out that this testing is cheating)  
+   
+   
+2023/04/20
+SMD8.ipynb
+Divided dataset into (train, validation, test) = (4 : 1 : 1)
+Save trained mask > Save validation acc > test
+
       
    
 Thank you.  
