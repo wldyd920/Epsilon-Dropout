@@ -88,7 +88,7 @@ SMD6(test acc).py
 Evaluate masks with test accuracy.  
 Result:  
 CIFAR-10: 77.95%  
-test acc > train acc
+test acc > train acc  
    
    
 2023/04/20  
