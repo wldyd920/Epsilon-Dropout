@@ -112,7 +112,7 @@ Note: Higher accuracy might be because of reducing the number of the batch size 
 SMD7(regularize).ipynb  
 Divided dataset into (train, validation, test) = (4 : 1 : 1)  
 Procedure: Save trained mask(train) > Save validation acc(val) >>> half > Use mask to train (train) > update acc (val) > test  
-CIFAR-10: 79.04%  
+CIFAR-10: 79.04% (200 epochs)  
 SMD7(drop).ipynb   
 Comparison with Dropout  
 CIFAR-10: 79.26% (without valid set 1000 epochs), 77.64% (with valid set 200 epochs)  
@@ -122,7 +122,7 @@ CIFAR-10: 79.26% (without valid set 1000 epochs), 77.64% (with valid set 200 epo
 SMD8(train+val).ipynb  
 Use validation dataset for training as well.  
 Proceduer: Save mask(train set) > Save val acc(val set) >>> half > Use mask to train(train+val set) > test  
-CIFAR-10: 79.07%  
+CIFAR-10: 79.07% (200 epochs)  
       
    
 Thank you.  
