@@ -95,7 +95,7 @@ Mistake found.
 It was using test acc but didn't used mask on test.  
 So it was like: train(with mask1) - test(without mask) - save both  
 although it makes sense as well, since I didn't intended to do that, I will correct it.  
-      
+   
    
 2023/04/20  
 SMD8(regularize).ipynb
