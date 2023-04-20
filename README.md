@@ -115,7 +115,7 @@ Procedure: Save trained mask > Save validation acc > test
 CIFAR-10: 79.04%  
 SMD7(drop).ipynb  
 Comparison with Dropout  
-CIFAR-10: 79.26% (without valid set), 77.64% (with valid set)
+CIFAR-10: 79.26% (without valid set 1000 epochs), 77.64% (with valid set 200 epochs)
 
       
    
