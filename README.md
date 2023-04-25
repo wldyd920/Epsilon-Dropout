@@ -125,11 +125,6 @@ Proceduer: Save mask(train set) > Save val acc(val set) >>> half > Use mask to t
 CIFAR-10: 79.88% (1000 epochs)  
       
       
-23/04/25  
-SMD9(train+val).ipynb  
-CIFAR-100 : 78.94%  
-Drop : 44.49%  
-Seems like there was a problem with loading dataset.
 
    
 Thank you.  
