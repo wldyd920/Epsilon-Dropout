@@ -124,6 +124,12 @@ Use validation dataset for training as well.
 Proceduer: Save mask(train set) > Save val acc(val set) >>> half > Use mask to train(train+val set) > test  
 CIFAR-10: 79.88% (1000 epochs)  
       
+      
+23/04/25
+SMD9(train+val).ipynb
+CIFAR-100 : 78.94% 
+Drop : 44.49%
+
    
 Thank you.  
    
