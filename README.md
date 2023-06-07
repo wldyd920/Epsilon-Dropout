@@ -125,7 +125,10 @@ Proceduer: Save mask(train set) > Save val acc(val set) >>> half > Use mask to t
 CIFAR-10: 79.88% (1000 epochs)  
       
       
-
+2023/06/07
+Dynamic Dropout rate을 적용
+Dynamic Dropout(DD)는 epoch가 진행됨에 따라 dropout probability를 감소시키는 방법임
+현재는 epoch기준으로 실험하였지만, 추후에는 loss에 비례하여 감소하도록 만들 예정
    
 Thank you.  
    
